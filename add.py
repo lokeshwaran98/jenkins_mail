@@ -14,6 +14,7 @@ def divide(a, b):
         return "Cannot divide by zero!"
     return a / b
 
+# Added a comment
 # Sample usage
 if __name__ == "__main__":
     num1 = 10
@@ -22,4 +23,3 @@ if __name__ == "__main__":
     print(f"Subtraction: {subtract(num1, num2)}")
     print(f"Multiplication: {multiply(num1, num2)}")
     print(f"Division: {divide(num1, num2)}")
-
